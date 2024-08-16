@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:pizza_app/Explore.dart';
 import 'package:pizza_app/frist.dart';
@@ -15,12 +14,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Pizza_App',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
       initialRoute: 'frist',
       routes: {
         'welcome': (context) => welcome(),
